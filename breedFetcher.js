@@ -13,7 +13,7 @@ request((strURL + strBreed), (error, response, body) => {
   
   const objData = JSON.parse(body)[0];
   if (objData) console.log(objData.description);
-  else console.log('Breed not found.')
+  else console.log('Breed not found.');
   // console.log('error:', error);
   // console.log('response:', response);
 });
